@@ -44,6 +44,7 @@ init:
   # - cd %PROJDIR%
   # Print the build system version
   - ver
+  - python --version
 
 build_script:
   # Upgrade the appveyor python version
